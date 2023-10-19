@@ -5,12 +5,12 @@
 .btn {
   background: linear-gradient(
     92.23deg,
-    #ff56f6 21.43%,
-    #b936ee 50.63%,
+    #deb4dc 21.43%,
+    #c370e3 50.63%,
     #3bace2 100%,
     #406aff 117.04%
   );
-  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  box-shadow: 0px 4.42184px 107.23px rgba(197, 139, 194, 0.51);
 }
 
 .btn:hover {
@@ -39,6 +39,20 @@
   padding: 1rem;
   border-radius: 100%;
 }
+.sheila,.motilla {
+  font-weight: 200;
+  margin-left: 5px;
+}
+.sheila:hover {
+  transform:scale(2);
+}
+.motilla:hover{
+  transform:scale(1.5);
+}
+.mifoto {
+  border-radius:270% 190% 270% 190%;
+  box-shadow: 0px 4.42184px 107.23px rgba(13, 5, 13, 0.51);
+}
 
 @layer base {
   body {
@@ -63,9 +77,9 @@
     @apply text-base;
   }
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#6096b8] to-[#e07adb] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
   }
   .section {
-    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+    @apply py-8 lg:py-24 lg:h-screen flex items-center ;
   }
 }

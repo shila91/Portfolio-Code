@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Work = () => {
-  return <div className='section' id='work'>
+  return <div className='section text-[40px] flex justify-center' id='work'>
   Work
 </div>;
 };
