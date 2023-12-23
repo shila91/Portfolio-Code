@@ -1,9 +1,11 @@
 import React from 'react';
-import Image from '../assets/zyro-image(1).png';
-import { FaGithub,FaYoutube,FaDribbble} from 'react-icons/fa';
+import Image from '../assets/desktop-PhotoRoom.png-PhotoRoom.png';
 import {TypeAnimation} from 'react-type-animation';
 import { motion} from 'framer-motion';
 import { fadeIn} from '../variants'
+import { FaGithub} from 'react-icons/fa';
+import { RxVercelLogo } from "react-icons/rx";
+
 
 const Banner = () => {
   return <section className='min-h-[100vh] lg:min-h-[90vh] flex lg:justify-center text-center items-center' id='home'>
@@ -18,7 +20,7 @@ const Banner = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{once:false, amount:0.5}} 
-            className='text-[55px] text-pink-300 font-bold leading-[0.8] lg:text'
+            className='text-[55px] text-pink-200 font-bold leading-[0.8] lg:text '
           >
             SHEILA <span>MOTILLA</span>
             </motion.h1>
@@ -51,7 +53,7 @@ const Banner = () => {
           whileInView={'show'}
           viewport={{once:false, amount:0.7}} 
           className=' mb-8 max-w-lg mx-auto  lg:mx-0 text-center lg:text-left'>
-              Hi!I am Front End developer based in Spain,Barcelona.
+              Hi!I am Front End developer based in Barcelona,Spain.
               Here you can see some work of my latest year.
           </motion.p>
           <motion.div 
@@ -62,34 +64,33 @@ const Banner = () => {
           className='flex max-w-mx gap-x-6 items-center
           mb-12 mx-auto lg:mx-0'
           >
-            
-            <button className='btn btn-lg'>Contact me</button>
-            <a href='#' className='text-gradient btn-link'>
-              My Portfolio
-            </a>
-          </motion.div>
           <motion.div 
           variants={fadeIn('up',0.7)} 
           initial='hidden'
           whileInView={'show'}
           viewport={{once:false, amount:0.7}} 
-          className='flex text-[20px] gap-x-6 max-w-max 
-          mx-auto lg:mx-0'>
-            <a href='https://github.com/'>
+          className='flex text-[24px] gap-x-8 max-w-max 
+          mx-auto lg:mx-0 '>
+          
+            <a href='https://github.com/shila91' className='hover:-scale-95'>
             <FaGithub />
+              </a>       
+              <a href='https://vercel.com/shila91s-projects'className='hover:-scale-95 '>
+            <RxVercelLogo />
               </a>  
-              <a href=''>
-            <FaDribbble />
-              </a>  
+            </motion.div>
+          
           </motion.div>
-        </div>
+        
+          
+          </div>
         
           <motion.div 
           variants={fadeIn('down',0.5)} 
           initial='hidden'
           whileInView={'show'}
-          className='hidden  mix-blend-lighten lg:flex flex-1 max-w-[320px] lg:max-w-[482px] '>
-            <img className='mifoto w-[430px] bg-pink-200 ' src={Image} alt='' />
+          className='hidden  mix-blend-lighten lg:flex flex-1 max-w-[320px] lg:max-w-[432px] '>
+            <img className='mifoto ' src={Image} alt='' />
           </motion.div>
         </div>
       </div>

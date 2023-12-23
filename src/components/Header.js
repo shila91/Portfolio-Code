@@ -1,6 +1,8 @@
 import React from 'react';
 import Logo from '../assets/1(1).png'
 
+
+
 const Header = () => {
   return <header className=''>
     <div className='container mx-auto'>
@@ -9,7 +11,8 @@ const Header = () => {
         <a href=''>
           <img className='sm w-40 ' src={Logo} alt='' />
         </a>
-          <button className='btn btn-sm'>Work with me</button>
+        
+          
       </div>
     </div>
   </header>;
