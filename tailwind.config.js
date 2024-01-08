@@ -21,10 +21,11 @@ module.exports = {
       colors: {
         primary: '#0a0a0a',
         accent: '#3bace2',
+        
       },
       backgroundImage: {
         site: "url('./assets/site-bg.jpg')",
-        about: "url('./assets/zyro-image(1).png')",
+        about: "url('./assets/sheila.png')",
         services: "url('./assets/services.png')",
       },
     },

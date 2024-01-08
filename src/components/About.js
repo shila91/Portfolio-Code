@@ -21,7 +21,7 @@ const About = () => {
         initial="hidden"
         whileInView={'show'}
         viewport={{once: false, amount:0.3}}
-        className='mifoto flex-1 bg-about  bg-contain bg-no-repeat  h-[300px] 
+        className='mifoto flex-1 bg-about bg-contain bg-no-repeat mix-blend-lighten   h-[300px] 
       bg-top'></motion.div>
 
         <motion.div 
@@ -32,9 +32,10 @@ const About = () => {
         className='flex-1'> 
         <h2 className='h2 text-accent'>About me</h2>
         <h3 className='h3 mb-4'>
-          I´m a Developer Front-end, with one year of experience studying a Bootcamp.</h3>
+          I´m a Developer Front End, with one year of experience, having completed and intensive Bootcamp program.</h3>
         <p className='mb-8'>
-            I am Front End developer based in Spain,Barcelona..
+            After a long and beautiful career as a restaurant management position.
+            I have make the desition to change careers to a more creative and fullfilling position, as a Front End Developer.
         </p>
 
         <div className='flex  gap-x-6 mb-16 '>

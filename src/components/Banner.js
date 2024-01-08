@@ -53,8 +53,8 @@ const Banner = () => {
           whileInView={'show'}
           viewport={{once:false, amount:0.7}} 
           className=' mb-8 max-w-lg mx-auto  lg:mx-0 text-center lg:text-left'>
-              Hi!I am Front End developer based in Barcelona,Spain.
-              Here you can see some work of my latest year.
+              Hello! I´m a Front End developer located in Barcelona,Spain.
+              Feel free to explore some of my latest year's work showcased here.
           </motion.p>
           <motion.div 
           variants={fadeIn('up',0.6)} 
